@@ -1,0 +1,264 @@
+header{
+	position: absolute;
+width: 81px;
+height: 35px;
+left: 530px;
+top: 204px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+.inputCategory {
+	position: absolute;
+width: 325px;
+height: 30px;
+left: 530px;
+top: 261px;
+
+background: #FFFFFF;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.plusButton1 {
+	position: absolute;
+width: 45px;
+height: 30px;
+left: 865px;
+top: 261px;
+
+background: #B518FF;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+color: white;
+}
+
+
+.inputTodo{
+
+position: absolute;
+width: 200px;
+height: 30px;
+left: 530px;
+top: 297px;
+
+background: #FFFFFF;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.category {
+	position: absolute;
+width: 117px;
+height: 30px;
+left: 738px;
+top: 297px;
+
+background: #FFFFFF;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.plusButton2 {
+	position: absolute;
+width: 45px;
+height: 30px;
+left: 865px;
+top: 297px;
+
+background: #B518FF;
+border: 0.5px solid #000000;
+box-sizing: border-box;
+border-radius: 2px;
+color: white;
+}
+
+
+.allCategories label {
+	position: absolute;
+width: 380px;
+height: 30px;
+left: 530px;
+top: 747px;
+
+background: #C4C4C4;
+border-radius: 0px 5px 5px 5px;
+}
+
+.allCategories button {
+	position: absolute;
+width: 100px;
+height: 30px;
+left: 810px;
+top: 747px;
+
+background: #B518FF;
+border-radius: 0px 5px 5px 0px;
+}
+
+/*
+.cat {
+	position: relative;
+width: 56px;
+height: 16px;
+left: 530px;
+top: 340px;
+display: lis;
+box-sizing: content-box;
+float: none;
+line-height: normal;
+font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+z-index: auto;
+color: #515365;
+}
+*/
+
+/*
+.counters {
+	display: inline-block;
+	position: static;
+width: 16px;
+height: 16px;
+left: 370px;
+top: 0px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+
+
+
+color: #515365;
+}
+*/
+
+
+
+.todo {
+	width: 370px;
+	height: 38px;
+	display: block;
+	background: #C4C4C4;
+border-radius: 0px 5px 5px 5px;
+position: relative;
+left: -50px;
+}
+.menu{
+width: 42px;
+height: 38px;
+left: 310px;
+display: inline-block;
+background: #B518FF;
+border-radius: 0px 5px 5px 0px;
+position: relative;
+color: white;
+} 
+/*
+ol{
+	position: relative;
+}
+li {
+	position: relative;
+width: 380px;
+height: 30px;
+left: 530px;
+top: 366px;
+list-style: none;
+background: #C4C4C4;
+border-radius: 0px 5px 5px 5px;
+}
+
+.ollist {
+	position: relative;
+}
+
+
+ul {
+	position: static;
+}
+*/
+.categories{
+	list-style: none;
+	display: block;
+	position: inherit;
+	top: 350px;
+    left: 500px;
+}
+
+li{
+	list-style: none;
+	position: relative;
+	display: block;
+}
+.createTodo{
+	position: relative;
+	left: -8px;
+}
+
+.counters{
+	position: relative;
+	top: -16px;
+    left: 360px;
+}
+
+.allCategories button {
+	color: white;
+}
+
+.edit{
+ position: relative;
+ left: 310px;
+ height: 38px;
+ color: white;
+ background: #B518FF;
+ border-radius: 0px 5px 5px 0px;
+
+}
+
+.delete{
+position: relative;
+left: 310px;
+height: 38px;
+ color: white;
+ background: #B518FF;
+ border-radius: 0px 5px 5px 0px;
+}
+
+.okButton {
+	height: 38px;
+ color: white;
+ background: #B518FF;
+ border-radius: 0px 5px 5px 0px;
+ display: block;
+ position: absolute;
+ top: 0px;
+left: 377px;
+}
+
+.cancelButton {
+	height: 38px;
+ color: white;
+ background: #B518FF;
+ border-radius: 0px 5px 5px 0px;
+ display: inline-block;
+ position: relative;
+ left: 182px;
+}
+

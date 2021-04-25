@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+
+	<title>To Do App</title>
+</head>
+<body>
+<header>Tasks</header>
+<div class="addCategory">
+	<input type="text" placeholder="Add your new category" class="inputCategory">
+	<button class="plusButton1"><div class="plus1">+</div></button>
+</div>
+<div class="createTodo">
+	<input type="text" placeholder="Add your new TODO" class="inputTodo">
+	<select name="category" required class="category">
+		<option value="" disabled selected hidden="">Category</option>
+	</select>
+	<button class="plusButton2"><div class="plus2">+</div></button>
+	<div class='categories'></div> 
+</div>
+	
+
+
+<div class="allCategories">>
+	<label>You have 0 pending tasks</label>
+    <button>Clear All</button>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
